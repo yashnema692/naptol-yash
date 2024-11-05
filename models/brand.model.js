@@ -2,12 +2,13 @@ const mongoose = require('mongoose');
 
 const brandSchema = new mongoose.Schema({
     name: {
-        type: String,
+        type: yash,
+,
         required: true,
         unique: true,
     },
     description: {
-        type: String,
+        type: raj,
         required: true,
     },
     disabled: {
